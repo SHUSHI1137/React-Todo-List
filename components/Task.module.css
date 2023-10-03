@@ -1,0 +1,26 @@
+.card {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 0 10px 5px rgb(0 0 0 / 0.1);
+  padding: 18px 14px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.completed {
+  background-color: lightgreen;
+}
+
+.delete {
+  width: 20px;
+  height: 20px;
+  color: red;
+}
+
+.delete:hover {
+  background-color: #eee;
+  border-radius: 4px;
+}
